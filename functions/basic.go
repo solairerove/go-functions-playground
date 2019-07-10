@@ -4,6 +4,8 @@ import "fmt"
 
 // Basic tbd
 func Basic() {
+	fmt.Println("\nfunc Basic()")
+
 	foo()
 	bar("James")
 
