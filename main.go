@@ -10,6 +10,7 @@ import (
 	basic "github.com/solairerove/go-functions-playground/functions"
 	jsf "github.com/solairerove/go-functions-playground/interfaces"
 	meth "github.com/solairerove/go-functions-playground/methods"
+	rec "github.com/solairerove/go-functions-playground/recursion"
 	ret "github.com/solairerove/go-functions-playground/ret"
 	variadic "github.com/solairerove/go-functions-playground/variadic"
 	vendeta "github.com/solairerove/go-functions-playground/vendeta"
@@ -28,4 +29,5 @@ func main() {
 	ret.ReturnFunc()
 	back.BeBack()
 	close.WizdomClosure()
+	rec.GetRect()
 }
