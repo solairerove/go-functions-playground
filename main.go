@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	def "github.com/solairerove/go-functions-playground/def"
+	exp "github.com/solairerove/go-functions-playground/expression"
 	basic "github.com/solairerove/go-functions-playground/functions"
 	jsf "github.com/solairerove/go-functions-playground/interfaces"
 	meth "github.com/solairerove/go-functions-playground/methods"
@@ -20,4 +21,5 @@ func main() {
 	meth.Meth()
 	jsf.JavaServerFaces()
 	vendeta.Anonymous()
+	exp.FuncExp()
 }
