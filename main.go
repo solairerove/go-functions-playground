@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	back "github.com/solairerove/go-functions-playground/callback"
 	def "github.com/solairerove/go-functions-playground/def"
 	exp "github.com/solairerove/go-functions-playground/expression"
 	basic "github.com/solairerove/go-functions-playground/functions"
@@ -24,4 +25,5 @@ func main() {
 	vendeta.Anonymous()
 	exp.FuncExp()
 	ret.ReturnFunc()
+	back.BeBack()
 }
