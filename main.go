@@ -8,6 +8,7 @@ import (
 	basic "github.com/solairerove/go-functions-playground/functions"
 	jsf "github.com/solairerove/go-functions-playground/interfaces"
 	meth "github.com/solairerove/go-functions-playground/methods"
+	ret "github.com/solairerove/go-functions-playground/ret"
 	variadic "github.com/solairerove/go-functions-playground/variadic"
 	vendeta "github.com/solairerove/go-functions-playground/vendeta"
 )
@@ -22,4 +23,5 @@ func main() {
 	jsf.JavaServerFaces()
 	vendeta.Anonymous()
 	exp.FuncExp()
+	ret.ReturnFunc()
 }
