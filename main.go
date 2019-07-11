@@ -8,6 +8,7 @@ import (
 	jsf "github.com/solairerove/go-functions-playground/interfaces"
 	meth "github.com/solairerove/go-functions-playground/methods"
 	variadic "github.com/solairerove/go-functions-playground/variadic"
+	vendeta "github.com/solairerove/go-functions-playground/vendeta"
 )
 
 func main() {
@@ -18,4 +19,5 @@ func main() {
 	def.DeferExample()
 	meth.Meth()
 	jsf.JavaServerFaces()
+	vendeta.Anonymous()
 }
